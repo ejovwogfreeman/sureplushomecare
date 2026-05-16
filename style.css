@@ -676,4 +676,10 @@ footer {
     bottom: 20px;
     right: 20px;
   }
+  .call-float {
+    width: 58px;
+    height: 58px;
+    bottom: 90px;
+    right: 20px;
+  }
 }
