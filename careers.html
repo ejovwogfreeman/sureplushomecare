@@ -4,30 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Careers | Sureplus Home Care Services</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-
+    <!-- Add this inside your <head> tag -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
-
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
-    <!-- HEADER -->
     <header>
       <div class="container">
         <nav>
           <a href="/" class="logo"><img src="images/logo.png" alt="" /></a>
 
-          <div class="nav-links">
+          <div class="nav-links" id="navLinks">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="services.html">Services</a>
@@ -37,6 +34,8 @@
             <a href="careers.html">Careers</a>
             <a href="contact.html" class="btn btn-primary">Contact</a>
           </div>
+
+          <div class="menu-toggle" id="menuToggle">☰</div>
         </nav>
       </div>
     </header>
